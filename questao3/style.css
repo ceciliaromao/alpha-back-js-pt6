@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctn-input{
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3vh;
+  gap: 1vw;
+}
+
+.ctn-card{
+  display: flex;
+  align-items: center;
+  padding-top: 1vh;
+  gap: 3vw;
+}
+
+#id-minutes, #id-seconds{
+  width: 5vw;
+  padding: 2px;
+}
+
+#ctn-check{
+  width: 30vw;
+  display: flex;
+  align-items: left;
+  padding-top: 2vh;
+  gap: 2vw;
+}
+
+#btn-check{
+  width: 10vw;
+  height: 4vh;
+  color: white;
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-check:hover{
+  background-color: darkgray;
+  color: black;
+}
+
+#h2-titulo{
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#h2-alarme{
+  font-weight: 700;
+  font-size: 16px;
+  display: none;
+}
